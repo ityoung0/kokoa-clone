@@ -1,0 +1,48 @@
+.user-phone{
+    display: flex;
+    position: relative;
+}
+
+.user-phone .circle{
+    margin-left: 7px;
+}
+.user-phone .exclamation{
+    position: absolute;
+    right: 7.3px;
+    bottom: 2px;
+    font-size: 11px;
+}
+.user-phone i{
+    color: tomato;
+}
+
+.more-suggestion__icons{
+    display: flex;
+    justify-content: space-between;
+}
+.more-suggestion__title{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 40px 0px;
+    border-top: var(--main-border);
+}
+.more-suggestion__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+.more-suggestion__icon-image{
+    background-color: var(--yellow);
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-suggestion__icon-name{
+    margin-top:12px;
+    opacity: 0.8;
+    font-size: 16px;
+}

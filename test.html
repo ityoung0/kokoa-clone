@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    span {
+      background-color: tomato;
+      color: white;
+      padding: 10px;
+      margin: 5px;
+    }
+
+    p > span{
+      background-color: yellow;
+    }
+    p ~ span{
+      background-color: teal;
+    }
+
+    @media print {
+      body{
+        background-color: wheat;
+      }
+    }
+  </style>
+  <body>
+    
+    <span>nice!</span>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, deserunt ullam dolore qui reiciendis rerum soluta vitae velit eius sequi facilis, asperiores magni, aliquam fugiat laudantium itaque dolorem est officia.<span>Inside</span>
+    </span></p>
+    <span>HELLO!!</span>
+    <address>hi</address>
+    <span>Hello</span>
+    
+    
+  </body>
+</html>
